@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- styling-->
+  <link rel="stylesheet" href="./calc.css">
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <title>Calculator</title>
+</head>
+<body>
+
+  <div class="main-container">
+    <div class="screen">
+      <div class="inputNumber"></div>
+      <div class="resultNumber"></div>
+    </div>
+    <div class="calculator">
+
+      <div class="calculator-line">
+        <div class="calculator-el grid1" id="openBracket"> <div class="btn"> ( </div></div>
+        <div class="calculator-el grid2" id="closeBracket"> <div class="btn"> ) </div></div>
+        <div class="calculator-el grid3" id="del"> <div class="btn"> DEL </div></div>
+        <div class="calculator-el grid4" id="c"> <div class="btn"> C </div> </div>
+      </div>
+      
+      <div class="calculator-line">
+        <div class="calculator-el grid5" id="7"> <div class="btn"> 7  </div> </div>
+        <div class="calculator-el grid6" id="8"> <div class="btn"> 8 </div> </div>
+        <div class="calculator-el grid7" id="9"> <div class="btn"> 9</div> </div>
+        <div class="calculator-el grid8" id="multiple"> <div class="btn"> x </div></div>
+      </div>
+      <div class="calculator-line">
+        <div class="calculator-el grid9"  id="4"> <div class="btn"> 4 </div></div>
+        <div class="calculator-el grid10" id="5"><div class="btn">5</div></div>
+        <div class="calculator-el grid11" id="6"><div class="btn">6</div></div>
+        <div class="calculator-el grid12" id="division"><div class="btn">/</div></div>
+      </div>
+      <div class="calculator-line">
+        <div class="calculator-el grid13" id="1"><div class="btn">1</div></div>
+        <div class="calculator-el grid14" id="2"><div class="btn">2</div></div>
+        <div class="calculator-el grid15" id="3"><div class="btn">3</div></div>
+        <div class="calculator-el grid16" id="add"><div class="btn">+</div></div>
+      </div>
+      <div class="calculator-line">
+        <div class="calculator-el grid17" id="0"><div class="btn">0</div></div>
+        <div class="calculator-el grid18" id="dot"><div class="btn">.</div></div>
+        <div class="calculator-el grid19" id="equal"><div class="btn">=</div></div>
+        <div class="calculator-el grid20" id="substraction"><div class="btn">-</div></div>
+      </div>
+      
+    </div>
+  </div>
+   <script src="./calc.js"></script> 
+</body>
+</html>

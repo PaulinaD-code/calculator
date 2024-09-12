@@ -1,0 +1,151 @@
+/* Global styling */
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Manrope', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  background-color:#010a0e; 
+}
+
+.main-container{
+  display: flex;
+  flex-direction:column;
+  width: 20%;
+  min-width: 350px;
+  background-color:#010a0e; 
+}
+
+/* Screen */
+
+.screen{
+  width: 96%;
+  padding: 1em 2%;
+  color: #FFF;
+}
+
+.inputNumber{
+  width: 96%;
+  padding: .5em 2%;
+  font-size: 2em;
+  color: #fff;
+  text-align: right;
+}
+
+.resultNumber{
+  display: none;
+}
+
+.resultNumber-visible{
+  display: flex;
+  flex-wrap: wrap;
+  width: 96%;
+  padding: 0 2%;
+  font-size: 4em;
+  color: #fff;
+  text-align: right;
+  box-sizing: border-box;
+ justify-content: flex-end;
+}
+
+/* Calculator */
+
+.calculator{
+  width: 96%;
+  padding: 1em 2%;
+}
+
+.calculator-line{
+  display: flex;
+  justify-content: space-evenly;
+  width: 96%;
+  padding: .5em 2%;
+  background-color:#010a0e; 
+}
+
+.calculator-el{
+  width: 4em;
+  height: 4em;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2em;
+  background-color:#011c27; ;
+  font-size: 1em;
+  font-weight:700;
+  color: #fff;
+}
+
+.grid5,
+.grid6,
+.grid7,
+.grid9,
+.grid10,
+.grid11,
+.grid13,
+.grid14,
+.grid15,
+.grid17,
+.grid18{
+  background-color: #515262;
+}
+
+.grid3,
+.grid4{
+  background-color: #1976d2 ;
+}
+
+.grid19{
+  background-color: #fb8c00 ;
+}
+
+.grid1,
+.grid2{
+  background-color: #1976d2 ;
+}
+
+.grid8,
+.grid12,
+.grid16,
+.grid20{
+  background-color: #1976d2 ;
+  font-weight: 800;
+}
+
+.boxShadow{
+  box-shadow: 2px 2px 4px grey;
+}
+
+.grid1:hover,
+.grid2:hover,
+.grid3:hover,
+.grid4:hover,
+.grid5:hover,
+.grid6:hover,
+.grid7:hover,
+.grid8:hover,
+.grid9:hover,
+.grid10:hover,
+.grid11:hover,
+.grid12:hover,
+.grid13:hover,
+.grid14:hover,
+.grid15:hover,
+.grid16:hover,
+.grid17:hover,
+.grid18:hover,
+.grid19:hover,
+.grid20:hover,
+.grid1:hover{
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+@media(max-width: 500px){
+  .main-container{
+    width: 100%;
+    height: 100vh;
+  }
+}
+
